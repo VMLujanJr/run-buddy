@@ -1,4 +1,7 @@
 h1 {
     font-family: "Playfair Display";
-    font-size: 72px;
+    font-size: 100px;
+}
+body {
+    background-color: tomato;
 }
