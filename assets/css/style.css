@@ -5,7 +5,20 @@ body {
     /* changes the default font to Arial */
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+}
+/* adds style to the <h1> element inside the <header> element */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+/* adds style to the child <a> element inside the parent <h1> element */
+header a {
+    color: #fce138;
 }
