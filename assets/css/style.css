@@ -76,3 +76,8 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* adds style to <section> */
+section {
+    padding: 60px;
+}
