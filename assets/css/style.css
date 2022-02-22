@@ -93,7 +93,7 @@ section {
 
 /* Hero Form Start */
 .hero-form {
-    border: 3px solid #024e76;
+    border: 2px solid #024e76;
     background-color: #fce138;
     border-radius: 45px 45px 45px 45px;
     padding: 25px;
@@ -105,17 +105,18 @@ section {
 }
 /* Hero Form End */
 
-/*  */
+/* */
 .hero-form h3 {
     font-size: 32px;
     margin: 0;
 }
 
-/*  */
+/* */
 .hero-form p {
     margin: 5px 0 15px 0;
 }
 
+/* */
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -124,4 +125,8 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
 }
