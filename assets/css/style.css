@@ -13,6 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navigation - START */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -49,6 +50,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* Navigation - END */
 
 /* adds style to <footer> */
 footer {
