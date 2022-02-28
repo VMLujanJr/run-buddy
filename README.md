@@ -1,18 +1,16 @@
-# RUN BUDDY
+# Run Buddy, Inc.
 
-## Description
+## Purpose
+A website that offers fitness training services. 
 
-A website that offers fitness training services.
-
-## Languages Used
-
-* Hypertext Markdown Language (HTML)
-* Cascading Style Sheets (CSS)
+## Built With
+* HTML
+* CSS
 
 ## Website
+https://lernantino.github.io/run-buddy/
 
-https://vmlujanjr.github.io/run-buddy/
+## Contribution
+Made with ❤️ by [your name]
 
-## Credits
-
-Made by VMLujanJr
+### ©️2019 Run Buddy, Inc.
