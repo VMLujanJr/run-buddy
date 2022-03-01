@@ -168,10 +168,11 @@ section {
 .section-title {
     font-size: 55px;
     color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
 }
 
 .primary-border {
@@ -184,9 +185,6 @@ section {
 /* All Sections - END */
 
 /* What-We-Do sec. - START */
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -194,12 +192,12 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* What-We-Do sec. - END */
 
 /* What-You-Do sec. - START */
 .steps {
-    text-align: center;
     background-color: #fce138;
 }
 
@@ -229,10 +227,6 @@ section {
 /* What-You-Do sec. - END */
 
 /* Meet the Trainers sec. - START */
-.trainers {
-    text-align: center;
-}
-
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -278,7 +272,6 @@ section {
 
 /* Reach Out sec. - START */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -317,3 +310,7 @@ section {
 }
 
 /* Reach Out - END */
+
+.flex-row {
+    display: flex;
+}
