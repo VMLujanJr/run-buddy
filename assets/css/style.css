@@ -1,11 +1,11 @@
-/* adds * universal selector */
+/* Universal selector */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* parent selector */
+/* Element selector */
 body {
     /* adds a teal/light blue color to text */
     color: #39a6b2;
@@ -13,7 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navigation - START */
+/* Navigation sec. - START */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -22,7 +22,7 @@ header {
     justify-content:space-between;
     flex-wrap: wrap;
 }
-/* adds style to the <h1> element inside the <header> element */
+
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -30,13 +30,11 @@ header h1 {
     margin: 0;
 }
 
-/* adds style to the child <a> element inside the parent <h1> element */
 header a {
     text-decoration: none;
     color: #fce138;
 }
 
-/* adds style to <nav> inside the <header> tag */
 header nav {
     margin: 7px 0;
 }
@@ -49,48 +47,17 @@ header nav ul {
     list-style: none;
 }
 
-/* adds style to <a> inside <header><nav><ul><li> */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.5vw;
 }
-/* Navigation - END */
 
-/* adds style to <footer> */
-footer {
-    background-color: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-
-/* adds style to <h2> inside <footer> */
-footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-/* adds style to <div> inside <footer> */
-footer div {
-    line-height: 1.5;
-    text-align: right;
-}
-
-/* adds style to <a> inside <footer> */
-footer a {
-    color: #024e76;
-}
-
-section {
+/* Hero sec. - START */
+section {/* might need removing */
     padding: 60px;
 }
 
-/* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -99,7 +66,6 @@ section {
     justify-content: center;
     flex-wrap: wrap;
 }
-/* Hero Style End */
 
 .hero-cta {
     width: 35%;
@@ -116,7 +82,6 @@ section {
     color: #fce138;
 }
 
-/* Hero Form Start */
 .hero-form {
     border: 2px solid #024e76;
     background-color: #fce138;
@@ -126,23 +91,22 @@ section {
     width: 40%;
     margin: 3.5%;
 }
-/* Hero Form End */
 
-/* */
 .hero-form h3 {
     font-size: 32px;
     margin: 0;
 }
 
-/* */
 .hero-form p {
     margin: 5px 0 15px 0;
 }
 
-/* */
+.hero-form label {
+    margin: 0 5px;
+}
+
 .form-input {
     border: 1px solid #024e76;
-    /* display: block; */
     padding: 7px 15px;
     font-size: 16px;
     color: #024e76;
@@ -150,12 +114,6 @@ section {
     margin-bottom: 15px;
 }
 
-/*  */
-.hero-form label {
-    margin: 0 5px;
-}
-
-/* adds style to the button in hero-form */
 .hero-form button {
     background-color: #024e76;
     color: #fce138;
@@ -164,26 +122,7 @@ section {
     font-size: 16px;
 }
 
-/* All Sections - START */
-.section-title {
-    font-size: 55px;
-    color:#024e76;
-    border-bottom: 3px solid;
-    margin: 0 auto 35px auto;
-    padding-bottom: 20px;
-    text-align: center;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color:#fce138;
-}
-/* All Sections - END */
-
+/* Main sec. - START */
 /* What-We-Do sec. - START */
 
 .intro p {
@@ -194,7 +133,6 @@ section {
     margin: 0 auto;
     text-align: center;
 }
-/* What-We-Do sec. - END */
 
 /* What-You-Do sec. - START */
 .steps {
@@ -224,7 +162,6 @@ section {
 .steps span {
     font-size: 38px;
 }
-/* What-You-Do sec. - END */
 
 /* Meet the Trainers sec. - START */
 .trainer {
@@ -309,7 +246,50 @@ section {
     color: #fce138;
 }
 
-/* Reach Out - END */
+/* Footer sec. - START */
+footer {
+    background-color: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
+/* Utility classes */
+.section-title {
+    font-size: 55px;
+    color:#024e76;
+    border-bottom: 3px solid;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color:#fce138;
+}
 
 .flex-row {
     display: flex;
